@@ -1,0 +1,1 @@
+json = JSON.parse(`plutil -convert json -o - "#{filename}"`)

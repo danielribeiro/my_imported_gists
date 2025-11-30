@@ -1,0 +1,29 @@
+interface Pong<T> {}
+class Ping<T> implements Pong<Pong<? super Ping<Ping<T>>>> {
+    static void Ping() {
+        Pong<? super Ping<Long>> Ping = new Ping<Long>();
+    }
+}
+
+
+> javac Ping.java
+
+The system is out of resources.
+Consult the following stack trace for details.
+java.lang.StackOverflowError
+    at com.sun.tools.javac.code.Type$ClassType.accept(Type.java:568)
+    at com.sun.tools.javac.code.Types$UnaryVisitor.visit(Types.java:3294)
+    at com.sun.tools.javac.code.Types$23.visitClassType(Types.java:2618)
+    at com.sun.tools.javac.code.Types$23.visitClassType(Types.java:2605)
+    at com.sun.tools.javac.code.Type$ClassType.accept(Type.java:568)
+    at com.sun.tools.javac.code.Types$UnaryVisitor.visit(Types.java:3294)
+    at com.sun.tools.javac.code.Types$23.visitClassType(Types.java:2618)
+    at com.sun.tools.javac.code.Types$23.visitClassType(Types.java:2605)
+    at com.sun.tools.javac.code.Type$ClassType.accept(Type.java:568)
+    at com.sun.tools.javac.code.Types$UnaryVisitor.visit(Types.java:3294)
+    at com.sun.tools.javac.code.Types$23.visitClassType(Types.java:2618)
+    at com.sun.tools.javac.code.Types$23.visitClassType(Types.java:2605)
+    at com.sun.tools.javac.code.Type$ClassType.accept(Type.java:568)
+    at com.sun.tools.javac.code.Types$UnaryVisitor.visit(Types.java:3294)
+    at com.sun.tools.javac.code.Types$23.visitClassType(Types.java:2618)
+    at com.sun.tools.javac.code.Types$23.visitClassType(Types.java:2605)

@@ -1,0 +1,2 @@
+echo -n  -e "\x00\x01\x02" > o
+hexdump -C
