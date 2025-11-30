@@ -9,7 +9,14 @@ Mostly gnerated with  the following prompts to ChatGPT below. Fork info was miss
 Original
 
 ```
-create me a shell script that leverage githbu's gh command line too to list all my PUBLIC gists, and import them each into its own folder. Each folder should have the all the files of the gist inside it (no ID), a README.md (with the description of the gist and a Extra section including the original fork, if it was forked). The gists's folder name should be the name of the one file if the gist has only one file, or should be the name of the largest file, if that gist has more than one file.
+create me a shell script that leverage githbu's gh command line too to 
+list all my PUBLIC gists, and import them each into its own folder. Each 
+folder should have the all the files of the gist inside it (no ID), a 
+README.md (with the description of the gist and a Extra section 
+including the original fork, if it was forked). The gists's folder name
+should be the name of the one file if the gist has only one file, or
+should be the name of the largest file, if that gist has more than one
+file.
 ```
 
 Into
