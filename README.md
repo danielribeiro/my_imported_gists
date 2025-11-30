@@ -4,7 +4,7 @@ Imported my old gists into a proper github project to make them easier to search
 
 # Info
 
-Generated with  the following prompts to ChatGPT:
+Mostly gnerated with  the following prompts to ChatGPT below. Fork info was missing, and some repos were ignored.
 
 Original
 

@@ -4,4 +4,4 @@
 mac distcc install instructions
 
 ### Extra
-- No fork information.
+Forked from https://gist.github.com/jvcleave/7149545
