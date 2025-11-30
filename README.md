@@ -4,7 +4,7 @@ Imported my old gists into a proper github project to make them easier to search
 
 # Info
 
-Mostly gnerated with  the following prompts to ChatGPT below. Fork info was missing, and some repos were ignored.
+Mostly generated with  the following prompts to ChatGPT below. Fork info was missing, and some repos were ignored. The shell script is available on [import.sh](https://github.com/danielribeiro/my_imported_gists/blob/main/import.sh)
 
 Original
 
@@ -60,3 +60,4 @@ gh: Invalid request.
 
 Invalid input: object is missing required key: files. (HTTP 422)
 ```
+
