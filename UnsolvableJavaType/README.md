@@ -4,4 +4,4 @@
 An example of a non-terminating compilation with javac
 
 ### Extra
-- No fork information.
+Forked from: https://gist.github.com/etorreborre/1387113

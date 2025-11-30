@@ -4,4 +4,4 @@
 Simple spec helper for clojure tests
 
 ### Extra
-- No fork information.
+Forked from: https://gist.github.com/mybuddymichael/4425558
