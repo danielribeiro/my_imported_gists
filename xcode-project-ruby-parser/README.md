@@ -4,4 +4,4 @@
 Parse Xcode project file, project.pbxproj, in Ruby.
 
 ### Extra
-- No fork information.
+Forked from https://gist.github.com/sonsongithub/2868639

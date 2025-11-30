@@ -4,4 +4,4 @@
 Run a shell command in a separate thread, terminate it after a time limit, return its output
 
 ### Extra
-- No fork information.
+Forked from: https://gist.github.com/lpar/1032297
